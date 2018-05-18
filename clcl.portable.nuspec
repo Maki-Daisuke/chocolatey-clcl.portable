@@ -5,7 +5,7 @@
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>clcl.portable</id>
     <version>2.0.3</version>
-    <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
+    <packageSourceUrl>https://github.com/Maki-Daisuke/chocolatey-clcl.portable</packageSourceUrl>
     <owners>Daisuke -yanother- Maki</owners>
     <!-- ============================== -->
 
