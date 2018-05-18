@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>clcl.portable</id>
+    <version>2.0.3</version>
+    <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
+    <owners>Daisuke -yanother- Maki</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>CLCL (Install)</title>
+    <authors>Ohno Tomoaki</authors>
+    <projectUrl>https://www.nakka.com/soft/clcl/index_eng.html</projectUrl>
+    <iconUrl>https://www.nakka.com/soft/icon/clcl.png</iconUrl>
+    <copyright> 1996-2015 by Ohno Tomoaki</copyright>
+    <licenseUrl>https://www.nakka.com/soft/clcl/index_eng.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://www.nakka.com/soft/clcl/download/src/</projectSourceUrl>
+    <tags>clcl.portable clcl clipboard</tags>
+    <summary>A clipboard caching utility</summary>
+    <description>CLCL is clipboard caching utility.
+
+* All clipboard formats are supported.
+* Template can be registered.
+* Pop-up menu is displayed by "Alt+C."
+* Menu can be customized.
+* Item is paste automatically.
+* Picture is displayed on a menu.
+* Tool tip is displayed on a menu.
+* The format to leave and the format to save can be set up.
+* The ignored window can be set up.
+* The paste key for every window can be set up.
+* Function is extensible with plug-in.
+* Unicode
+* Freeware
+
+</description>
+    <!-- =============================== -->      
+
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
